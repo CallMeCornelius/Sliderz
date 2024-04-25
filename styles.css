@@ -1,0 +1,39 @@
+#puzzle-container {
+    width: 450px; /* Adjust as needed */
+    height: 450px; /* Adjust as needed */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.tile {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#tile9 {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid black;
+    color: black; /* Set the text color to black */
+    position: relative; /* Add position relative */
+}
+
+.solved {
+    background-color: green;
+}
+
+
+#empty {
+    background-color: darkorange;
+}
+
